@@ -97,3 +97,21 @@ func cosim(_ a: [Float], _ b: [Float]) -> Float {
     if nb == 0 { return 1 }
     return dp / (na*nb)
 }
+
+extension Bool {
+    var intValue: Int {
+        return self ? 1 : 0
+    }
+}
+
+extension Int {
+    var boolValue: Bool {
+        return self != 0 
+    }
+}
+
+extension String.SubSequence{
+    var stringValue: String{
+        return String(self)
+    }
+}

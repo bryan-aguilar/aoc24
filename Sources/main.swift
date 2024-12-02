@@ -4,5 +4,7 @@
 import Foundation
 
 try[
-    Day1_1()
+    Day1_1(),
+    Day2_1(),
+    Day2_2(),
 ].forEach({(d: IDay) in try d.run()})
