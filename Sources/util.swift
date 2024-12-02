@@ -47,7 +47,7 @@ extension Optional: OptionalType {
 
 func readLines(_ path: String) throws -> [String.SubSequence] {
     try String(contentsOf: URL(fileURLWithPath: path), encoding: .utf8)
-      .split(separator: "\r\n")
+      .split(separator: "\n")
       .map({$0.filter({$0 != "\r" && $0 != "\n"})})
 }
 
