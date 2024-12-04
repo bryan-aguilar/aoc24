@@ -115,3 +115,7 @@ extension String.SubSequence{
         return String(self)
     }
 }
+
+func +<T : Numeric> (x: (T, T), y: (T, T)) -> (T, T) {
+    return (x.0 + y.0, x.1 + y.1)
+}
