@@ -1,6 +1,5 @@
 class Day4_2:Day4_1{
     override var label:String {"Day 4 part 2"}
-    override var searchKeys: [Character] { ["M","A","S"]}
     let MAS = "MAS"
     let SAM = "SAM"
 
