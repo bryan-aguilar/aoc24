@@ -17,6 +17,7 @@ let package = Package(
 
     dependencies: [
     .package(url: "https://github.com/apple/swift-system", from: "1.4.0"),
+    .package(url: "https://github.com/apple/swift-algorithms", from: "1.2.0"),
   ],
 
     targets: [
@@ -26,6 +27,7 @@ let package = Package(
             name: "aoc24",
             dependencies: [
                 .product(name: "SystemPackage", package: "swift-system"),
+                .product(name: "Algorithms", package: "swift-algorithms"),
             ],
             swiftSettings: [
                 .swiftLanguageMode(.v6),

@@ -123,3 +123,15 @@ extension String.SubSequence{
 func +<T : Numeric> (x: (T, T), y: (T, T)) -> (T, T) {
     return (x.0 + y.0, x.1 + y.1)
 }
+
+
+struct Directions{
+    static let up = (-1,0)
+    static let down = (1,0)
+    static let right = (0,1)
+    static let left = (0,-1)
+    static let upLeft = (-1,-1)
+    static let upRight = (1,-1)
+    static let downLeft = (-1,1)
+    static let downRight = (1,1)
+}

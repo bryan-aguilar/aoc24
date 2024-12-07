@@ -4,7 +4,7 @@
             "type": "lldb",
             "request": "launch",
             "args": [],
-            "cwd": "${workspaceFolder:aoc24}/sources",
+            "cwd": "${workspaceFolder:aoc24}",
             "name": "Debug aoc24",
             "program": "${workspaceFolder:aoc24}/.build/debug/aoc24",
             "preLaunchTask": "swift: Build Debug aoc24"
